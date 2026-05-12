@@ -48,9 +48,8 @@ Opções de escopo
 ````
 Conferir:
 
-Conferir:
+- Gateway → termina em 1
 
-Gateway → termina em .1
-DNS → termina em .10
+- DNS → termina em 10
 
 
