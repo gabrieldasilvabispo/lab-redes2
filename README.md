@@ -14,7 +14,7 @@ Ethernet → Editar
 IP: 192.168.17.10
 MÁSCARA:255.255.255.0
 GATEWAY:192.168.17.1
-DNS:192.168.17.1
+DNS:192.168.17.10
 ````
 ### Configurar DNS no Windows Server
 ````
@@ -51,5 +51,35 @@ Conferir:
 - Gateway → termina em 1
 
 - DNS → termina em 10
+
+## Configurar WEB SERVER NO Windows Server
+
+### Instalar IIS
+````
+Gerenciar
+Servidor Web(IIS)
+````
+### Configurar WEB SERVER
+````
+Disco local(C:)
+
+Windows
+
+INETPUB
+
+WWWROOT
+
+Colocar o arquivo HTML la dentro
+````
+### Adicionar mais sites
+````
+No servidor clicar em IIs
+
+Botão direito no servidor: Gerenciador do serviços de informações da internet(IIS)
+
+Botão direito em SITES: Adicionar site
+````
+
+
 
 
