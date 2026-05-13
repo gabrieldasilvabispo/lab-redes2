@@ -1,6 +1,6 @@
 # Laboratorio de redes 02 - Integração usando Windows server + Debian firewall 
 
-### Configurar Windows para usar o Debian
+## Configurar Windows para usar o Debian
 ````
 No Windows:
 
@@ -23,7 +23,7 @@ Adaptador (ex: NICGABRIELBISPO)
 IPv4 → Propriedades
 Configurar DNS - Exemplo: 192.168.17.10
 ````
-### Configurar Encaminhador DNS
+## Configurar Encaminhador DNS
 ````
 Gerenciador do Servidor
 DNS
