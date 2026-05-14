@@ -59,26 +59,108 @@ Conferir:
 Gerenciar
 Servidor Web(IIS)
 ````
-### Configurar WEB SERVER
+
+### Estrutura do Site
+
+Pasta padrão do IIS: ````C:\inetpub\wwwroot````
+
+O que fica nessa pasta?
+
+Arquivos do site:
+
+index.html
+imagens
+CSS
+JavaScript
+
+### Publicando um Site
 ````
-Disco local(C:)
+Pegar:
+HTML
+imagens
+arquivos do projeto
 
-Windows
+Ir em: C:\inetpub\wwwroot
 
-INETPUB
+Remover arquivos padrão do IIS
 
-WWWROOT
+Colocar:
 
-Colocar o arquivo HTML la dentro
+index.html
+imagens
+restante do projeto
 ````
-### Adicionar mais sites
+### Configurar DNS para o Site
 ````
-No servidor clicar em IIs
+Gerenciador do Servidor
+DNS
+Botão direito no servidor
+Gerenciar DNS
 
-Botão direito no servidor: Gerenciador do serviços de informações da internet(IIS)
+Criar Zona
 
-Botão direito em SITES: Adicionar site
+Botão direito: Zona de Pesquisa Direta
+
+Selecionar: Nova Zona
 ````
+### Criar Registro Host (A)
+Dentro da zona criada
+````
+Área branca → botão direito
+Novo Host (A ou AAAA)
+
+Nome: www
+
+Endereço IP: 192.168.17.10
+````
+
+## Hospedar Mais de Um Site
+
+### Criar Novo Site
+````
+Criar pasta
+
+Colocar arquivos HTML:
+
+index.html
+imagens
+CSS
+JS
+````
+
+### Adicionar Site no IIS
+````
+Gerenciador do Servidor
+Ferramentas
+Gerenciador dos Serviços de Informações da Internet (IIS)
+Expandir servidor
+Botão direito em:
+Sites
+Adicionar Site
+````
+Configuração`:
+````
+Nome do site
+
+Caminho físico: C:\inetpub
+
+Nome do Host: www.xxxxxx.tec
+````
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
