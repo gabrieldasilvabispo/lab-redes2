@@ -146,7 +146,7 @@ Caminho físico: C:\inetpub
 
 Nome do Host: www.xxxxxx.tec
 ````
-
+REPETIR PROCESSO DO DNS
 
 
 
