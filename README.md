@@ -69,8 +69,11 @@ O que fica nessa pasta?
 Arquivos do site:
 
 index.html
+
 imagens
+
 CSS
+
 JavaScript
 
 ### Publicando um Site
@@ -97,8 +100,7 @@ DNS
 Botão direito no servidor
 Gerenciar DNS
 
-Criar Zona
-
+Criar Zona:
 Botão direito: Zona de Pesquisa Direta
 
 Selecionar: Nova Zona
@@ -134,8 +136,7 @@ Gerenciador do Servidor
 Ferramentas
 Gerenciador dos Serviços de Informações da Internet (IIS)
 Expandir servidor
-Botão direito em:
-Sites
+Botão direito em: Sites
 Adicionar Site
 ````
 Configuração`:
